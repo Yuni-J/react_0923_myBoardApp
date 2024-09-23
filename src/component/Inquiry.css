@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
+
+h2{
+    margin: 30px;
+}
+button{
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #aecdec;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 80px;
+    height: 30px;
+    /* box-shadow: 2px 2px 2px rgb(122, 122, 122); */
+    margin: 10px 10px 20px 10px;
+}
+
+.inquiryHome{
+    font-family: "Orbit", sans-serif;
+    width: 1080px;
+    margin: 0 auto;
+}
+.inquiryHome h1{
+    text-align: start;
+}
+
+.inquiryList{
+    border: 2px solid #cce7d5;
+    border-radius: 10px;
+}
+.inquiryList table{
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 875px;
+    margin: 10px auto;  
+    /* position: relative; */
+}
+.inquiryList th{ 
+    background-color: #f4f4f4; 
+    color: #333;
+    padding: 10px;
+    border-top: 2px solid #475b7383;
+    font-size: 16px;
+}
+.inquiryList tbody td:nth-child(3){
+    text-align: start;
+    width: 200px;
+}
+.inquiryList td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; 
+}
+.inquiryList tbody tr:hover {
+    background-color: #cce7d55e;
+}
+/* .inquiryList table, th, td {
+    border: 1px solid #ddd;
+} */
+.inquiryList .link{
+    color: black;
+    text-decoration: none;
+}
+.inquiryList .link:hover {
+    color: rgb(0, 0, 197); 
+}
+
+
+.inquiryContents{
+    border: 2px solid #cce7d5;
+    border-radius: 10px;
+}
+.content{
+    width: 972px;
+    margin: 0 auto;
+}
+.title{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+    width: 875px;
+    margin: 0 auto;
+    text-align: start;
+}
+.div{
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.div .type{
+    margin: 15px;
+    position: relative;
+}
+.div .writer{
+    position: relative;
+    margin: 15px;
+}
+.div .date{
+    margin: 15px;
+}
+.type::after, .writer::after{
+    content: "";
+    width: 1px;
+    height: 15px;
+    background-color: #475b7383;
+    position: absolute;
+    top: 4px;
+    right: -15px;
+}
+.con{
+    font-size: 16px;
+    text-align: start;
+    border: 1px solid #475b7383;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+
+.inquiryForm{
+    border: 2px solid #cce7d5;
+    border-radius: 10px;
+}
+.inquiryForm .content{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    width: 788px;
+}
+.inquiryForm .writer{
+    margin-left: 105px;
+}
+.inquiryForm .writer input{
+    margin-left: 40px;
+    width: 150px;
+}
+.inquiryForm .title div{
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 110px;
+}
+.inquiryForm .title input{
+    width: 505px;
+}
+.inquiryForm label{
+    font-size: 18px;
+}
+.inquiryForm input, select, textarea{
+    margin-left: 80px;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.inquiryForm textarea {
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    resize: none;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s; */
+    margin-left: 80px;
+}
+.inquiryForm .con{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.inquiryForm label{
+    padding: 10px;
+}
+.inquiryForm input:focus, 
+.inquiryForm textarea:focus, 
+.inquiryForm select:focus {  
+    outline: 2px solid #66afe9; /* Change color as needed */
+    border-radius: 4px;
+}
+
+
+
+
+.inquiryModify input{
+    border: none; /* 테두리 제거 */
+    background: none; /* 배경 제거 */
+    outline: none; /* 아웃라인 제거 */
+    padding: 0; /* 패딩 제거 */
+    margin: 0 auto; /* 마진 제거 */
+    text-align: center;
+}
+.inquiryModify .title input{
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+/* .inquiryModify .writer input{
+    text-align: end;
+    margin-right: 5px;
+    font-size: 13px;
+} */
+.inquiryModify .con input{
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: start;
+    width: 100%;
+}
+.inquiryModify h2{
+    margin: 36px 0;
+}
+.inquiryModify .content{
+    border: 1px solid black;
+    width: 60%;
+    height: 200px;
+    padding: 30px;
+    margin: 36px auto;
+}
+.inquiryModify .title{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.inquiryModify .writer{
+    text-align: end;
+    font-size: 13px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.inquiryModify .con textarea{
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: start;
+    width: 90%;
+    resize: none;
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
