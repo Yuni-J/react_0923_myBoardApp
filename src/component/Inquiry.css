@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
 
+h1{
+    margin: 50px;
+}
 h2{
-    margin: 30px;
+    margin: 40px;
 }
 button{
     font-weight: 700;
@@ -13,8 +16,9 @@ button{
     width: 80px;
     height: 30px;
     /* box-shadow: 2px 2px 2px rgb(122, 122, 122); */
-    margin: 10px 10px 20px 10px;
+    margin: 20px 10px;
 }
+
 
 .inquiryHome{
     font-family: "Orbit", sans-serif;
@@ -28,12 +32,13 @@ button{
 .inquiryList{
     border: 2px solid #cce7d5;
     border-radius: 10px;
+    height: 600px;
 }
 .inquiryList table{
     font-size: 14px;
     border-collapse: collapse;
     width: 875px;
-    margin: 10px auto;  
+    margin: 15px auto;  
     /* position: relative; */
 }
 .inquiryList th{ 
@@ -69,6 +74,7 @@ button{
 .inquiryContents{
     border: 2px solid #cce7d5;
     border-radius: 10px;
+    height: 600px;
 }
 .content{
     width: 972px;
@@ -79,7 +85,7 @@ button{
     margin-bottom: 15px;
     font-size: 18px;
     width: 875px;
-    margin: 0 auto;
+    margin: 70px auto;
     text-align: start;
 }
 .div{
@@ -114,23 +120,24 @@ button{
     border: 1px solid #475b7383;
     border-radius: 10px;
     padding: 20px;
-    height: 100px;
-    margin-bottom: 20px;
+    height: 135px;
+    margin: 25px 0;
 }
 
 
 .inquiryForm{
     border: 2px solid #cce7d5;
     border-radius: 10px;
+    height: 600px;
 }
 .inquiryForm .content{
     display: flex;
     flex-wrap: wrap;
     font-weight: bold;
-    width: 788px;
+    width: 700px;
 }
 .inquiryForm .writer{
-    margin-left: 105px;
+    margin-left: 95px;
 }
 .inquiryForm .writer input{
     margin-left: 40px;
@@ -146,24 +153,26 @@ button{
 }
 .inquiryForm label{
     font-size: 18px;
+    margin: 20px 0;
+    padding: 10px;
 }
-.inquiryForm input, select, textarea{
+.inquiryForm input,select{
     margin-left: 80px;
     border: 1px solid;
     border-radius: 4px;
-    padding: 7px;
-    font-size: 12px;
+    padding: 10px;
+    font-size: 13px;
     line-height: 16px;
 }
 .inquiryForm textarea {
     width: 500px;
     height: 150px;
     padding: 10px;
+    font-size: 13px;
+    border: 1px solid;
     border-radius: 4px;
     font-family: 'Arial', sans-serif;
     resize: none;
-    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: border-color 0.3s; */
     margin-left: 80px;
 }
 .inquiryForm .con{
@@ -172,19 +181,17 @@ button{
     flex-direction: column;
     flex-wrap: wrap;
 }
-.inquiryForm label{
-    padding: 10px;
-}
 .inquiryForm input:focus, 
 .inquiryForm textarea:focus, 
 .inquiryForm select:focus {  
     outline: 2px solid #66afe9; /* Change color as needed */
     border-radius: 4px;
 }
-
-
-
-
+.inquiryModify{
+    border: 2px solid #cce7d5;
+    border-radius: 10px;
+    height: 600px;
+}
 .inquiryModify input{
     border: none; /* 테두리 제거 */
     background: none; /* 배경 제거 */
@@ -192,52 +199,25 @@ button{
     padding: 0; /* 패딩 제거 */
     margin: 0 auto; /* 마진 제거 */
     text-align: center;
+    font-size: 18px;
 }
 .inquiryModify .title input{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    width: 100%;
-}
-/* .inquiryModify .writer input{
-    text-align: end;
-    margin-right: 5px;
-    font-size: 13px;
-} */
-.inquiryModify .con input{
-    font-size: 14px;
-    margin: 0 auto;
     text-align: start;
-    width: 100%;
+    font-family: "Orbit", sans-serif;
 }
-.inquiryModify h2{
-    margin: 36px 0;
-}
-.inquiryModify .content{
-    border: 1px solid black;
-    width: 60%;
-    height: 200px;
-    padding: 30px;
-    margin: 36px auto;
-}
-.inquiryModify .title{
-    font-weight: bold;
-    margin-bottom: 15px;
+.inquiryModify textarea{
+    width: 875px;
+    height: 100px;
     font-size: 16px;
-}
-.inquiryModify .writer{
-    text-align: end;
-    font-size: 13px;
-    margin-bottom: 50px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid gray;
-}
-.inquiryModify .con textarea{
-    font-size: 14px;
-    margin: 0 auto;
-    text-align: start;
-    width: 90%;
+    font-family: "Orbit", sans-serif;
     resize: none;
-    border: none;
     outline: none;
-    overflow: hidden;
+    border: none;
+    padding: 0;
+}
+.inquiryModify select{
+    font-size: 14px;
+    padding: 1px;
 }
