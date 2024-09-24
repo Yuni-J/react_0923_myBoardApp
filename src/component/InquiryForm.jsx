@@ -47,7 +47,7 @@ const InquiryForm = () => {
 
     return (
         <div className='inquiryForm'>
-            <h2>글작성</h2>
+            <h2>문의 하기</h2>
             <div className='content'>
                 <label htmlFor="type" className='type'>문의 유형
                     <select name="type" id="type" value={type} onChange={onChange}
